@@ -17,4 +17,5 @@
 > Winter page of the app with all its contents
 
 
+__________________________________________________________________________________________________
 *Files ending in .swift are the files that contain all the code that actually shows up in the app* 
