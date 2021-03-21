@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         NavigationView {
-            ScrollView {
             VStack {
                 Text("Seasons Greetings!")
                     .font(.largeTitle)
@@ -26,6 +25,7 @@ struct ContentView : View {
                     .cornerRadius(40)
                     .font(.title)
             }
+                Spacer()
                 NavigationLink(destination: SpringView()) {
                     Text("🌱 Spring! 🌺")
                     .frame(minWidth: 0, maxWidth: 300)
@@ -35,6 +35,7 @@ struct ContentView : View {
                     .cornerRadius(40)
                     .font(.title)
             }
+                Spacer()
                 NavigationLink(destination: FallView()) {
                     Text("🍁 Fall! 🍂")
                     .frame(minWidth: 0, maxWidth: 300)
@@ -44,6 +45,7 @@ struct ContentView : View {
                     .cornerRadius(40)
                     .font(.title)
             }
+                Spacer()
                 NavigationLink(destination: WinterView()) {
                     Text("☃️ Winter! ❄️")
                     .frame(minWidth: 0, maxWidth: 300)
@@ -53,10 +55,11 @@ struct ContentView : View {
                     .cornerRadius(40)
                     .font(.title)
             }
+                Spacer()
           }
+            
         }
     }
-}
 }
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
