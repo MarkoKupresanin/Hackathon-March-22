@@ -10,45 +10,46 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         NavigationView {
+            ScrollView {
             VStack {
-                Text("Main Content View")
+                Text("Seasons Greetings!")
                     .font(.largeTitle)
                     .fontWeight(.medium)
                     .foregroundColor(Color.blue)
                 Spacer()
                 NavigationLink(destination: SummerView()) {
-                    Text("Summer!")
+                    Text("⛱ Summer! 😎")
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.black)
-                        .background(Color(.yellow))
+                        .background(Color("SunYellow"))
                     .cornerRadius(40)
                     .font(.title)
             }
                 NavigationLink(destination: SpringView()) {
-                    Text("Spring!")
+                    Text("🌱 Spring! 🌺")
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.white)
-                        .background(Color(.green))
+                        .background(Color("GrassGreen"))
                     .cornerRadius(40)
                     .font(.title)
             }
                 NavigationLink(destination: FallView()) {
-                    Text("Fall!")
+                    Text("🍁 Fall! 🍂")
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.white)
-                        .background(Color(.orange))
+                        .background(Color("PumpkinOrange"))
                     .cornerRadius(40)
                     .font(.title)
             }
                 NavigationLink(destination: WinterView()) {
-                    Text("Winter!")
+                    Text("☃️ Winter! ❄️")
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.black)
-                        .background(Color(.white))
+                        .background(LinearGradient(gradient: Gradient(colors: [Color("Winter1"), Color("Winter2"), Color("Winter3")]), startPoint: .leading, endPoint: .trailing))
                     .cornerRadius(40)
                     .font(.title)
             }
@@ -56,7 +57,7 @@ struct ContentView : View {
         }
     }
 }
-
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
