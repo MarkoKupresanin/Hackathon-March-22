@@ -1,7 +1,5 @@
 # Hackathon-March
 
-> Under Construction
-
 **ContentView.swift** 
 > Main page of the app when first opened
 
