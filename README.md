@@ -1,20 +1,23 @@
 # Hackathon-March
 
 **ContentView.swift** 
-> Main page of the app when first opened
+> Main page of the app when first opened.
 
 **SummerView.swift**
-> Summer page of the app with all its contents
+> Summer page of the app with all its contents.
 
 **SpringView.swift**
-> Spring page of the app with all its contents
+> Spring page of the app with all its contents.
 
 **FallView.swift**
-> Fall page of the app with all its contents
+> Fall page of the app with all its contents.
 
 
 **WinterView.swift**
-> Winter page of the app with all its contents
+> Winter page of the app with all its contents.
+
+**Launch Screen.storyboard**
+> The launch screen of the app.
 
 
 __________________________________________________________________________________________________
