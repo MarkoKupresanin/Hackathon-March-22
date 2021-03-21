@@ -20,11 +20,11 @@
 
 **Assets.xcassets**
 > Folder containing all the assests such as images, and color sets.
-   * Colors: All the color sets
-   * Fall_Images: Images for the fall page
-   * Spring_Images: Images for the spring page
-   * Summer_Images: Images for the summer page
-   * Winter_Images: Images for the winter page.
+   >* Colors: All the color sets
+   >* Fall_Images: Images for the fall page
+   >* Spring_Images: Images for the spring page
+   >* Summer_Images: Images for the summer page
+   >* Winter_Images: Images for the winter page.
 
 __________________________________________________________________________________________________
 *Files ending in .swift are the files that contain all the code that actually shows up in the app* 
