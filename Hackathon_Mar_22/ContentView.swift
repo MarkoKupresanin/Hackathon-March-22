@@ -21,7 +21,7 @@ struct ContentView : View {
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.black)
-                        .background(Color("SunYellow"))
+                    .background(LinearGradient(gradient: Gradient(colors: [Color("PaleGold"), Color(.yellow), Color("SunYellow")]), startPoint: .leading, endPoint: .trailing))                    .cornerRadius(40)
                     .cornerRadius(40)
                     .font(.title)
             }
@@ -31,8 +31,7 @@ struct ContentView : View {
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.white)
-                        .background(Color("GrassGreen"))
-                    .cornerRadius(40)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color("YellowGreen"), Color(.green), Color("GrassGreen")]), startPoint: .leading, endPoint: .trailing))                    .cornerRadius(40)
                     .font(.title)
             }
                 Spacer()
@@ -41,7 +40,7 @@ struct ContentView : View {
                     .frame(minWidth: 0, maxWidth: 300)
                     .padding()
                     .foregroundColor(.white)
-                        .background(Color("PumpkinOrange"))
+                    .background(LinearGradient(gradient: Gradient(colors: [Color("Tangerine"), Color(.orange), Color("PumpkinOrange")]), startPoint: .leading, endPoint: .trailing))
                     .cornerRadius(40)
                     .font(.title)
             }
@@ -57,7 +56,6 @@ struct ContentView : View {
             }
                 Spacer()
           }
-            
         }
     }
 }
