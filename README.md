@@ -49,6 +49,7 @@ _______________________
 __________________________________________________________________________________________________
 *Files ending in .swift are the files that contain all the code that actually shows up in the app* 
 
+Not avaliable for download because I don't want to pay Apple 100 dollars.
 
 
 Created by: Marko Kupresanin
