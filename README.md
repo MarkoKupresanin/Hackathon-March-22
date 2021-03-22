@@ -26,6 +26,18 @@
    >* Spring_Images: Images for the spring page
    >* Summer_Images: Images for the summer page
    >* Winter_Images: Images for the winter page.
+  
+  
+  
+**More Files**
+
+![](DemoMedia/SS1.png)
+![](DemoMedia/SS3.png)
+![](DemoMedia/SS4.png)
+![](DemoMedia/DemoVid.mp4)
+
+
+
 
 __________________________________________________________________________________________________
 *Files ending in .swift are the files that contain all the code that actually shows up in the app* 
