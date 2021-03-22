@@ -3,6 +3,8 @@
 ### Summary:
 This app is a small but useful assistant that can shows you the most useful items you'll be needing during that season you select. The app features multi page set ups to keep everything in order and neat. As well as handy buttons to navigate you to any item that catches your eye. 
 
+>Demo Video: https://www.dropbox.com/s/544p1iyfj2mv38y/DemoVid.mp4?dl=0
+
 **ContentView.swift** 
 > Main page of the app when first opened.
 
