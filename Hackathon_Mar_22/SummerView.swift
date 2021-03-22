@@ -44,7 +44,7 @@ Timeframe: June 21 to September 22
                 }
                 VStack{
                 PersonView(name:"Womens Bikinis", price:"$24.99", img: "womenswimsuit2", linkredirect: "https://www.target.com/p/women-s-v-neck-racerback-tankini-top-all-in-motion-black-floral/-/A-81449587?preselect=81252047#lnk=sametab")
-                    .background(Color.purple)
+                    .background(Color.pink)
                     .cornerRadius(CGFloat(SETRADIUS))
                     .shadow(radius: 8)
                 }
@@ -58,7 +58,21 @@ Timeframe: June 21 to September 22
                 }
                 VStack{
                 PersonView(name:"Sunscreen (SPF 100)", price:"$15.99", img: "suncreen1", linkredirect: "https://www.neutrogena.com/products/sun/ultra-sheer-dry-touch-sunscreen-broad-spectrum-spf-100/6887310.html")
+                    .background(Color.purple)
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+            }
+            HStack {
+                VStack {
+                    PersonView(name:"Beach Blanket", price:"$19.99", img: "blanket2", linkredirect:"https://www.amazon.com/AISPARKY-Blanket-Outdoor-Sandproof-Compact/dp/B083DPPVRF/ref=sr_1_2_sspa?dchild=1&keywords=beach+blankets&qid=1616375974&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRkExMjdaTlhIUDI1JmVuY3J5cHRlZElkPUEwOTQyMDY0VVRCRlpMWU1YMVFMJmVuY3J5cHRlZEFkSWQ9QTA2MDc3NDYxTFZQSFRJVUYwWE8zJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==")
                     .background(Color.pink)
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+                VStack{
+                PersonView(name:"UV Resistant Sunglasses", price:"$65.00", img: "sunglasses1", linkredirect: "https://www.quayaustralia.com/products/high-key?variant=33282074607702&&utm_source=MT&utm_medium=paidsearch&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPV2iveVKg1WDAuW2kJ8h1FW9Lu34nTeR1sY95gVXZ4RdZJDrmJJwKUaAsFWEALw_wcB")
+                    .background(Color.blue)
                     .cornerRadius(CGFloat(SETRADIUS))
                     .shadow(radius: 8)
                 }

@@ -47,7 +47,7 @@ Timeframe: December 22, to March 20
                 }
                 VStack{
                 PersonView(name:"Ski Set", price:"$679.00", img: "skiset1", linkredirect: "https://www.rei.com/product/181619/rossignol-experience-88-ti-basalt-skis-with-bindings-mens-20202021")
-                    .background(Color.purple)
+                    .background(Color.pink)
                     .cornerRadius(CGFloat(SETRADIUS))
                     .shadow(radius: 8)
                 }
@@ -61,11 +61,26 @@ Timeframe: December 22, to March 20
                 }
                 VStack{
                 PersonView(name:"Sleds", price:"$48.95", img: "sled1", linkredirect: "https://www.businessinsider.com/best-sled")
-                    .background(Color.pink)
+                    .background(Color.purple)
                     .cornerRadius(CGFloat(SETRADIUS))
                     .shadow(radius: 8)
                 }
             }
+            HStack {
+                VStack {
+                    PersonView(name:"Fireworks", price:"$8.99", img: "sparklers1", linkredirect:"https://www.wholesalesparklers.com/72pc-8-color-sparklers-wire-12-packages-of-6-sparklers.html?source=googleshopping&category_id=33&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPUMgPVyypgRhNwfIa4tpcwwRUjVZEAbH_LCsYnxtGIivVOS7Jp-U7caAhzgEALw_wcB")
+                    .background(Color.pink)
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+                VStack{
+                PersonView(name:"Winter Coat", price:"$89.98", img: "wintercoat2", linkredirect: "https://www.wantdo.com/products/mens-down-jacket-thicken-parka-coat-winter-warm-puffer-jacket-with-fur-hood?currency=USD&variant=32217754927198&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping")
+                    .background(Color("Winter1"))
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+            }
+
         }
     }
 }

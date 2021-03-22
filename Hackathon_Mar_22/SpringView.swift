@@ -54,7 +54,7 @@ Timeframe: March 20 to June 20
             
                 HStack {
                 VStack {
-                    PersonView(name:"Badmitton Set", price:"$6.88", img: "Badmittion1", linkredirect: "https://www.instacart.com/landing?product_id=22359412&retailer_id=1487&region_id=32083604724&utm_medium=sem_shopping&utm_source=instacart_google&utm_campaign=ad_demand_shopping_bananas_rp_uncat_all&utm_content=accountid-6180870146_campaignid-11246798817_adgroupid-114239524750_device-c&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPWCwHTRjY-_9ZA3Zo6fhHWNOuPm-VbpU5yeEsh5mtlgNl-05y-84ucaAgbuEALw_wcB")
+                    PersonView(name:"Badmitton Set‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎", price:"$6.88", img: "Badmittion1", linkredirect: "https://www.instacart.com/landing?product_id=22359412&retailer_id=1487&region_id=32083604724&utm_medium=sem_shopping&utm_source=instacart_google&utm_campaign=ad_demand_shopping_bananas_rp_uncat_all&utm_content=accountid-6180870146_campaignid-11246798817_adgroupid-114239524750_device-c&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPWCwHTRjY-_9ZA3Zo6fhHWNOuPm-VbpU5yeEsh5mtlgNl-05y-84ucaAgbuEALw_wcB")
                     .background(Color.yellow)
                     .cornerRadius(CGFloat(SETRADIUS))
                     .shadow(radius: 8)
@@ -66,8 +66,22 @@ Timeframe: March 20 to June 20
                     .shadow(radius: 8)
                 }
             }
+            HStack {
+            VStack {
+                PersonView(name:"Gardening Kit", price:"$25.97", img: "GardenKit1", linkredirect: "https://www.amazon.com/Indoor-Vegetable-Garden-Starter-Kit/dp/B08P95SVK5/ref=sr_1_4?dchild=1&keywords=garden+kit&qid=1616373537&sr=8-4")
+                .background(Color.pink)
+                .cornerRadius(CGFloat(SETRADIUS))
+                .shadow(radius: 8)
+            }
+            VStack{
+            PersonView(name:"Claritin", price:"$5.49", img: "claritin1", linkredirect: "https://www.target.com/p/claritin-24-hour-non-drowsy-allergy-relief-tablets-loratadine-5ct/-/A-53088402?ref=tgt_adv_XS000000&AFID=google_pla_df&fndsrc=tmnv&DFA=71700000079335698&CPNG=PLA_DVM%2B0060H00000uKC79QAG-NATL_Claritin_Google+Search_Feb_2021_Flight&adgroup=PLA_NATL_Claritin&LID=700000001393753pgs&network=g&device=c&location=9032183&gclid=Cj0KCQjw3duCBhCAARIsAJeFyPXL-j_V1XzeWN0be6satW3FM3jagWJwRIZyt0ZlaJ6ZFRkWIC3CQZwaAg49EALw_wcB&gclsrc=aw.ds")
+                .background(Color("YellowGreen"))
+                .cornerRadius(CGFloat(SETRADIUS))
+                .shadow(radius: 8)
+            }
         }
     }
+}
 }
 
 struct PersonView: View {

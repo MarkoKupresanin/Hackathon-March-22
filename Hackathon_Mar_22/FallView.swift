@@ -63,6 +63,21 @@ Timeframe: September 23 to December 21
                     .shadow(radius: 8)
                 }
             }
+            HStack {
+                VStack {
+                    PersonView(name:"Pumpkin Carving Kit", price:"$9.99", img: "CarvingKit1", linkredirect:"https://www.amazon.com/Halloween-Pumpkin-Professional-Stainless-Decoration/dp/B08BJS6219/ref=asc_df_B08BJS6219/?tag=hyprod-20&linkCode=df0&hvadid=459434780851&hvpos=&hvnetw=g&hvrand=16744642056492152294&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-958143294709&psc=1")
+                    .background(Color.pink)
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+                VStack{
+                    PersonView(name:"Back to School Kits", price:"$15.00", img:"schoolkit1", linkredirect: "https://kitsforkidz.org/product/junior-high-kit/")
+                    .background(Color("PumpkinOrange"))
+                    .cornerRadius(CGFloat(SETRADIUS))
+                    .shadow(radius: 8)
+                }
+            }
+
         }
     }
 }
