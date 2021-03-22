@@ -5,6 +5,7 @@
 
 **SummerView.swift**
 > Summer page of the app with all its contents.
+![](DemoMedia/SS2.png)
 
 **SpringView.swift**
 > Spring page of the app with all its contents.
